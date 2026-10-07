@@ -2,7 +2,7 @@
   --bg-color: #ffffff;
   --text-color: #101010;
   --text-color-light: #ffffff;
-  --accent-0: #0066cc;
+  --accent-0: #4a0601;
   --accent-1: #e34236;
   --max-width: 1100px;
 }
@@ -33,7 +33,7 @@ body {
 .site-title {
   font-size: 1.5rem;
   font-weight: bold;
-  color: var(--nav-text);
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -44,14 +44,14 @@ body {
 }
 
 .nav-item {
-  color: var(--nav-text);
+  color: #ffffff;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s ease;
 }
 
 .nav-item:hover {
-  color: var(--accent-0);
+  color: var(--accent-1);
 }
 
 .section-title {
@@ -67,7 +67,7 @@ body {
 .button {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  background-color: var(--accent0);
+  background-color: var(--accent-0);
   color: #ffffff;
   text-decoration: none;
   border-radius: 6px;

@@ -2,18 +2,84 @@
 <html>
   <head>
     <title>Edward Cook Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <header class="navbar">
     <div class="site-title">Edward Cook</div>
     <ul class="nav-links">
-      <li><a href="#contact" class="nav-item">About</a></li>
-      <li><a href="#about" class="nav-item">Projects</a></li>
-      <li><a href="#projects" class="nav-item">Contact</a></li>
+      <li><a href="#contact" class="nav-item">Contact</a></li>
+      <li><a href="#about" class="nav-item">About</a></li>
+      <li><a href="#projects" class="nav-item">Projects</a></li>
       <li><a href="https://github.com/CookedWard/" class="nav-item">GitHub</a></li>
     </ul>
   </header>
 
   <main>
-    
+
+    <section id="about" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; align-items: center;">
+      <div>
+        <h2 class="section-title">About Me:</h2>
+        <p class="section-body">I am a student, with an interest in computer science. I often spend my free time programming various passions projects, which can be seen below</p>
+        <p class="section-body">I frequently learn new programming languages, and have experience from Python to C and from Lua to assembly</p>
+        <a href="#projects" class="button">View my Projects</a>
+      </div>
+
+      <img src="SelfPic.png" alt="Profile" style="width: auto; height: 350px; border-radius: 8px;">
+    </section>
+
+    <section id="projects">
+
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div>
+            <h3>Colony Survival HD Textures</h3>
+            <p>Mod for the game 'Colony Survival' which replaces the game's textures with HD alternatives</p>
+          </div>
+          <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3482892004" class="button">View on Steam</a>
+        </article>
+
+        <article class="project-card">
+          <div>
+            <h3>Colony Survival Flight Mod</h3>
+            <p>DLL mod for the game 'Colony Survival' which allows players to fly for ease of building</p>
+          </div>
+          <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3732962868" class="button">View on Steam</a>
+        </article>
+
+        <article class="project-card">
+          <div>
+            <h3>SNES RPG game</h3>
+            <p>A game that I began developing for the SNES</p>
+            <img src="SNESgame.png" height=100>
+          </div>
+          <p><b>Not Available</b></p>
+        </article>
+
+        <article class="project-card">
+          <div>
+            <h3>SNES Multi-CPU assembler and linker toolchain</h3>
+            <p>A toolchain to help me develop games for the SNES</p>
+          </div>
+          <p><b>Not Available</b></p>
+        </article>
+
+        <article class="project-card">
+          <div>
+            <h3>P5.js Garden Project</h3>
+            <p>Fully procedurally generated garden, with tree made using L-Systems</p>
+          </div>
+          <a href="https://editor.p5js.org/edwardcook623/sketches/yj4Abi4dX" class="button">View on p5.org</a>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-body">Contact me by:</p>
+      <a href="mailto:edwardcook623@gmail.com" class="button">Email</a>
+    </section>
+
   </main>
 </html>
